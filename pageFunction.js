@@ -1,3 +1,5 @@
+// Minimal Playwright page function focused on reliable screenshot capture
+
 async ({ page, request, log, Apify }) => {
     log.info(`Captura rápida para: ${request.url}`);
 
